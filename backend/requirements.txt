@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+numpy>=2.1.0
+openai>=1.12.0
+httpx>=0.27.0
+langchain==0.1.10
+langchain-community==0.0.25
+langchain-openai==0.0.8
+chromadb
+python-dotenv
+pydantic
+requests
+beautifulsoup4

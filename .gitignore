@@ -1,0 +1,41 @@
+# --- GLOBAL & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- BACKEND (Python) ---
+# Virtual Environments
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Bytecode
+backend/__pycache__/
+*.py[cod]
+
+# Environment Variables (CRITICAL)
+backend/.env
+
+# Local Database & Scraped Data (Let the server generate these)
+backend/chroma_db/
+backend/treatments.json
+
+# --- FRONTEND (Node/React) ---
+# Dependencies
+frontend/node_modules/
+
+# Build Outputs
+frontend/dist/
+frontend/build/
+
+# Environment Variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Debugging logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
