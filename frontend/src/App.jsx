@@ -3,7 +3,7 @@ import { Search, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import PrescriptionCard from './components/PrescriptionCard';
 
-const API_BASE_URL = "https://your-app-name.onrender.com"; 
+const API_BASE_URL = "https://uncover-backend.onrender.com"; 
 // const API_BASE_URL = "http://localhost:8000";
 
 function App() {
